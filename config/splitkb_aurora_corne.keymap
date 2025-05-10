@@ -133,10 +133,10 @@
 
         BT_Layer {
             bindings = <
-&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &openM2    &OpenO2    &trans  &trans             &trans  &trans
-&trans          &trans        &trans        &trans        &trans        &studio_unlock    &terminal  &Change_Q  &trans  &kp K_SCROLL_UP    &trans  &trans
-&bt BT_CLR_ALL  &trans        &trans        &trans        &trans        &Column_Search    &trans     &trans     &trans  &kp K_SCROLL_DOWN  &trans  &trans
-                                            &trans        &trans        &trans            &trans     &trans     &trans
+&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &sys_reset  &none   &trans  &trans  &trans  &trans
+&trans          &trans        &trans        &trans        &trans        &studio_unlock    &none       &none   &trans  &none   &trans  &trans
+&bt BT_CLR_ALL  &trans        &trans        &trans        &trans        &none             &trans      &trans  &trans  &none   &trans  &trans
+                                            &trans        &trans        &trans            &trans      &trans  &trans
             >;
         };
     };
